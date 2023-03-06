@@ -1,0 +1,21 @@
+
+public class Greeting {
+
+	public static void main(String[] args) {
+		
+		String name;
+		name = "Noah";
+		
+		Integer age;
+		age = 26;
+		
+		Boolean admin;
+		admin = true;
+		
+		System.out.println("Hello " + name);
+		System.out.println("Noah's age is " + age);
+		System.out.println("Is Noah and admin? " + admin);
+
+	}
+
+}

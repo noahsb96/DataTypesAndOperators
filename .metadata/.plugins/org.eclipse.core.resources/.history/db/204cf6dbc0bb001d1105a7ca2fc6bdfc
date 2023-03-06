@@ -1,0 +1,17 @@
+
+public class Greeting {
+
+	public static void main(String[] args) {
+		
+		String name;
+		name = "Noah";
+		
+		Integer age;
+		age = 37;
+		
+		System.out.println("Hello " + name);
+		System.out.println("Noah's age is " + age);
+
+	}
+
+}

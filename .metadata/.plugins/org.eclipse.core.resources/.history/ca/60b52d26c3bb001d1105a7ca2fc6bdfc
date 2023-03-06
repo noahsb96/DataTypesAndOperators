@@ -1,0 +1,50 @@
+
+public class Greeting {
+
+	public static void main(String[] args) {
+		
+		String name;
+		name = "Noah";
+		
+		// Char is 2 bytes and range is 0 to 65535 and does not have negative values as it is referencing a letter
+		
+		Integer age;
+		age = 26;
+		
+		// Integers have 4 types:
+		// Byte size is 1 byte and range is -128 to 127. Stores 256 values
+		// Short size is 2 bytes and range is -32768 to 32767
+		// Integer size is 4 bytes and range is -214748348 to 2147483647
+		// Long size is 8 bytes and range is 9223372036854775808 to 9223372036854775807
+		// Float is 4 bytes and range is 3.4 to the -38th value to 3.4 to the 38th value
+		// Double is 8 bytes and range is 1.7 to the -308th value to 1.7 to the 308th value
+		
+		Boolean admin;
+		admin = true;
+		
+		// Boolean size is 1 bit and range is 0 to 1. Translates to true or false.
+		
+		System.out.println("Hello " + name);
+		System.out.println("Noah's age is " + age);
+		System.out.println("Is Noah and admin? " + admin);
+		System.out.println("");
+		
+		Integer x = 2;
+		Integer y = 5;
+		Integer Result = x + y;
+		
+		System.out.println(Result);
+		
+		Integer Result = x - y;
+		
+		System.out.println(Result);
+		
+		// = sign stores value on right in variable on left
+		// + sign adds value on right to value on left
+		// - sign subtracts value on right from value on left
+		// * sign multiplies value on right to value on the left
+		// / sign divides value on left by value on the right
+
+	}
+
+}

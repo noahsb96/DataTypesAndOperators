@@ -1,0 +1,15 @@
+
+public class Greeting {
+
+	public static void main(String[] args) {
+		
+		String name;
+		name = "Noah";
+		
+		
+		
+		System.out.println("Hello " + name);
+
+	}
+
+}
